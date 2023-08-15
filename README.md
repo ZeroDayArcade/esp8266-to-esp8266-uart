@@ -4,7 +4,7 @@ This code and corresponding tutorial explain how to communicate between two ESP8
 Because both boards are the same and run on the same voltage (3.3V), no resistors are needed, just female-to-female jumper wires for UART, and USB to Micro USB cables to power each board. Specifically, we'll be using the ESP8266 NodeMCU 1.0 (ESP-12E Module)
 <br/><br/>
 
-### Follow along the full tutorial: [Setting Up UART Communication Between Two ESP8266's](https://zerodayarcade.com/tutorials/hello-world-assembly-macos)
+### Follow along the full tutorial: [Setting Up UART Communication Between Two ESP8266's](https://zerodayarcade.com/tutorials/esp8266-to-esp8266-uart-communication)
 
 The full tutorial provides significantly more detail and additional diagrams. If you have any trouble running this demo, please see the full tutorial linked above. Follow the steps below to run the setup:
 <br/><br/>
