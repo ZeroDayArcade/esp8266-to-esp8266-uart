@@ -1,7 +1,7 @@
-# esp8266-to-esp8266-uart
+# ESP8266-to-ESP8266 UART Communication
 This code and corresponding tutorial explain how to communicate between two ESP8266 NodeMCU's via a wired UART connection rather than using WiFi. There are a number of reasons you might want to do this. For starters, you may not want to transmit all data between devices over WiFi. You may want each board to use its WiFi capabilities for a specific purpose like hitting an API, while you isolate the inter-board communication to a wired connection. Knowing how to do this also provides the basis for setting up wired communication between an ESP8266 NodeMCU and a digital device that has no native wireless capabilities, effectively giving it wireless network and internet access. 
 <br/><br/>
-Because both boards are the same and run on the same voltage, no resistors are needed, just female-to-female jumper wires for UART, and USB to Micro USB cables to power each board. Specifically, we'll be using the ESP8266 NodeMCU 1.0 (ESP-12E Module)
+Because both boards are the same and run on the same voltage (3.3V), no resistors are needed, just female-to-female jumper wires for UART, and USB to Micro USB cables to power each board. Specifically, we'll be using the ESP8266 NodeMCU 1.0 (ESP-12E Module)
 <br/><br/>
 
 ### Follow along the full tutorial: [Setting Up UART Communication Between Two ESP8266's](https://zerodayarcade.com/tutorials/hello-world-assembly-macos)
@@ -44,7 +44,7 @@ If you are seeing this, that means the UART communication between sender ESP8266
 You can use UART communication like this from a ESP8266 to other devices as well. Here's an example of using an ESP8266 as a wireless adapter for a Game Boy Advance SP to give it access to the internet: [Video](https://youtu.be/_I2X50VyxGc)
 <br/>
 
-In this example the GBA is downloading a webpage from [https://example.com](https://example.com) The GBA also runs on 3.3V which makes the setup fairly straightforward.
+In this example the GBA is downloading a webpage from [https://example.com](https://example.com). The GBA also runs on 3.3V which makes the setup fairly straightforward.
 
 <br/>
 
