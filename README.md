@@ -35,7 +35,8 @@ Open the Serial Monitor in the Arduino IDE. With the Serial Monitor opened and b
 
 Now power on the **Receiver ESP8266** by connecting it to your dev computer with a USB to Micro USB cable. Connect it to the USB port the Serial Monitor *is* listening on. You should now see messages printing in the Serial Monitor:
 
-![image](https://github.com/ZeroDayArcade/esp8266-to-esp8266-uart/assets/141867962/c5eca0e0-c62e-4a43-ac53-91ec33871398)
+![image](https://github.com/ZeroDayArcade/esp8266-to-esp8266-uart/assets/141867962/5c972bc4-c9d2-4bf2-8926-0d1d73348659)
+
 
 If you are seeing this, that means the UART communication between sender ESP8266 and receiver ESP8266 is working!
 <br/>
