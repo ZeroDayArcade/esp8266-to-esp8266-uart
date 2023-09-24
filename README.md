@@ -51,6 +51,3 @@ In this example the GBA is downloading a webpage from [https://example.com](http
 
 # More Zero Day Arcade Tutorials:
 🎓  <a href="https://zerodayarcade.com/tutorials">zerodayarcade.com/tutorials</a> 
-
-# Find Hacking Bounties in Gaming:
-🎮  <a href="https://zerodayarcade.com/bounties">zerodayarcade.com/bounties</a>
